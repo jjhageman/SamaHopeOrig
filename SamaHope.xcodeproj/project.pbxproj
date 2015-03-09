@@ -8,11 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3F661C0B1AAD4CBF008A6430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F661C0A1AAD4CBF008A6430 /* AppDelegate.swift */; };
-		3F661C0D1AAD4CBF008A6430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F661C0C1AAD4CBF008A6430 /* ViewController.swift */; };
+		3F661C0D1AAD4CBF008A6430 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F661C0C1AAD4CBF008A6430 /* ProjectsViewController.swift */; };
 		3F661C101AAD4CBF008A6430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C0E1AAD4CBF008A6430 /* Main.storyboard */; };
 		3F661C121AAD4CBF008A6430 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C111AAD4CBF008A6430 /* Images.xcassets */; };
 		3F661C151AAD4CBF008A6430 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C131AAD4CBF008A6430 /* LaunchScreen.xib */; };
 		3F661C211AAD4CBF008A6430 /* SamaHopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F661C201AAD4CBF008A6430 /* SamaHopeTests.swift */; };
+		3F661C2E1AAD4F44008A6430 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F661C2C1AAD4F44008A6430 /* ProjectTableViewCell.swift */; };
+		3F661C2F1AAD4F44008A6430 /* ProjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C2D1AAD4F44008A6430 /* ProjectTableViewCell.xib */; };
+		3F661C331AAD5552008A6430 /* Entypo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C321AAD5552008A6430 /* Entypo.otf */; };
+		3F661C401AAD5586008A6430 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C341AAD5586008A6430 /* SourceSansPro-Black.ttf */; };
+		3F661C411AAD5586008A6430 /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C351AAD5586008A6430 /* SourceSansPro-BlackItalic.ttf */; };
+		3F661C421AAD5586008A6430 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C361AAD5586008A6430 /* SourceSansPro-Bold.ttf */; };
+		3F661C431AAD5586008A6430 /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C371AAD5586008A6430 /* SourceSansPro-BoldItalic.ttf */; };
+		3F661C441AAD5586008A6430 /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C381AAD5586008A6430 /* SourceSansPro-ExtraLight.ttf */; };
+		3F661C451AAD5586008A6430 /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C391AAD5586008A6430 /* SourceSansPro-ExtraLightItalic.ttf */; };
+		3F661C461AAD5586008A6430 /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C3A1AAD5586008A6430 /* SourceSansPro-Italic.ttf */; };
+		3F661C471AAD5586008A6430 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C3B1AAD5586008A6430 /* SourceSansPro-Light.ttf */; };
+		3F661C481AAD5586008A6430 /* SourceSansPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C3C1AAD5586008A6430 /* SourceSansPro-LightItalic.ttf */; };
+		3F661C491AAD5586008A6430 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C3D1AAD5586008A6430 /* SourceSansPro-Regular.ttf */; };
+		3F661C4A1AAD5586008A6430 /* SourceSansPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C3E1AAD5586008A6430 /* SourceSansPro-Semibold.ttf */; };
+		3F661C4B1AAD5586008A6430 /* SourceSansPro-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F661C3F1AAD5586008A6430 /* SourceSansPro-SemiboldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +44,28 @@
 		3F661C051AAD4CBF008A6430 /* SamaHope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamaHope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F661C091AAD4CBF008A6430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F661C0A1AAD4CBF008A6430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F661C0C1AAD4CBF008A6430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F661C0C1AAD4CBF008A6430 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		3F661C0F1AAD4CBF008A6430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F661C111AAD4CBF008A6430 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F661C141AAD4CBF008A6430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3F661C1A1AAD4CBF008A6430 /* SamaHopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamaHopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F661C1F1AAD4CBF008A6430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F661C201AAD4CBF008A6430 /* SamaHopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaHopeTests.swift; sourceTree = "<group>"; };
+		3F661C2C1AAD4F44008A6430 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		3F661C2D1AAD4F44008A6430 /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectTableViewCell.xib; sourceTree = "<group>"; };
+		3F661C321AAD5552008A6430 /* Entypo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.otf; sourceTree = "<group>"; };
+		3F661C341AAD5586008A6430 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		3F661C351AAD5586008A6430 /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3F661C361AAD5586008A6430 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		3F661C371AAD5586008A6430 /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3F661C381AAD5586008A6430 /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3F661C391AAD5586008A6430 /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		3F661C3A1AAD5586008A6430 /* SourceSansPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Italic.ttf"; sourceTree = "<group>"; };
+		3F661C3B1AAD5586008A6430 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		3F661C3C1AAD5586008A6430 /* SourceSansPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		3F661C3D1AAD5586008A6430 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		3F661C3E1AAD5586008A6430 /* SourceSansPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.ttf"; sourceTree = "<group>"; };
+		3F661C3F1AAD5586008A6430 /* SourceSansPro-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				3F661C0A1AAD4CBF008A6430 /* AppDelegate.swift */,
-				3F661C0C1AAD4CBF008A6430 /* ViewController.swift */,
+				3F661C0C1AAD4CBF008A6430 /* ProjectsViewController.swift */,
 				3F661C0E1AAD4CBF008A6430 /* Main.storyboard */,
 				3F661C111AAD4CBF008A6430 /* Images.xcassets */,
 				3F661C131AAD4CBF008A6430 /* LaunchScreen.xib */,
+				3F661C2C1AAD4F44008A6430 /* ProjectTableViewCell.swift */,
+				3F661C2D1AAD4F44008A6430 /* ProjectTableViewCell.xib */,
+				3F661C301AAD54BA008A6430 /* Resources */,
 				3F661C081AAD4CBF008A6430 /* Supporting Files */,
 			);
 			path = SamaHope;
@@ -110,6 +143,34 @@
 				3F661C1F1AAD4CBF008A6430 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F661C301AAD54BA008A6430 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F661C311AAD54E0008A6430 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3F661C311AAD54E0008A6430 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F661C341AAD5586008A6430 /* SourceSansPro-Black.ttf */,
+				3F661C351AAD5586008A6430 /* SourceSansPro-BlackItalic.ttf */,
+				3F661C361AAD5586008A6430 /* SourceSansPro-Bold.ttf */,
+				3F661C371AAD5586008A6430 /* SourceSansPro-BoldItalic.ttf */,
+				3F661C381AAD5586008A6430 /* SourceSansPro-ExtraLight.ttf */,
+				3F661C391AAD5586008A6430 /* SourceSansPro-ExtraLightItalic.ttf */,
+				3F661C3A1AAD5586008A6430 /* SourceSansPro-Italic.ttf */,
+				3F661C3B1AAD5586008A6430 /* SourceSansPro-Light.ttf */,
+				3F661C3C1AAD5586008A6430 /* SourceSansPro-LightItalic.ttf */,
+				3F661C3D1AAD5586008A6430 /* SourceSansPro-Regular.ttf */,
+				3F661C3E1AAD5586008A6430 /* SourceSansPro-Semibold.ttf */,
+				3F661C3F1AAD5586008A6430 /* SourceSansPro-SemiboldItalic.ttf */,
+				3F661C321AAD5552008A6430 /* Entypo.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +253,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F661C471AAD5586008A6430 /* SourceSansPro-Light.ttf in Resources */,
+				3F661C441AAD5586008A6430 /* SourceSansPro-ExtraLight.ttf in Resources */,
 				3F661C101AAD4CBF008A6430 /* Main.storyboard in Resources */,
+				3F661C431AAD5586008A6430 /* SourceSansPro-BoldItalic.ttf in Resources */,
 				3F661C151AAD4CBF008A6430 /* LaunchScreen.xib in Resources */,
+				3F661C491AAD5586008A6430 /* SourceSansPro-Regular.ttf in Resources */,
+				3F661C411AAD5586008A6430 /* SourceSansPro-BlackItalic.ttf in Resources */,
 				3F661C121AAD4CBF008A6430 /* Images.xcassets in Resources */,
+				3F661C481AAD5586008A6430 /* SourceSansPro-LightItalic.ttf in Resources */,
+				3F661C4A1AAD5586008A6430 /* SourceSansPro-Semibold.ttf in Resources */,
+				3F661C4B1AAD5586008A6430 /* SourceSansPro-SemiboldItalic.ttf in Resources */,
+				3F661C451AAD5586008A6430 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
+				3F661C331AAD5552008A6430 /* Entypo.otf in Resources */,
+				3F661C401AAD5586008A6430 /* SourceSansPro-Black.ttf in Resources */,
+				3F661C2F1AAD4F44008A6430 /* ProjectTableViewCell.xib in Resources */,
+				3F661C461AAD5586008A6430 /* SourceSansPro-Italic.ttf in Resources */,
+				3F661C421AAD5586008A6430 /* SourceSansPro-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F661C0D1AAD4CBF008A6430 /* ViewController.swift in Sources */,
+				3F661C0D1AAD4CBF008A6430 /* ProjectsViewController.swift in Sources */,
+				3F661C2E1AAD4F44008A6430 /* ProjectTableViewCell.swift in Sources */,
 				3F661C0B1AAD4CBF008A6430 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +481,7 @@
 				3F661C261AAD4CBF008A6430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F661C271AAD4CBF008A6430 /* Build configuration list for PBXNativeTarget "SamaHopeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +490,7 @@
 				3F661C291AAD4CBF008A6430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
