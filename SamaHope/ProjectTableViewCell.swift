@@ -30,7 +30,7 @@ class ProjectTableViewCell: UITableViewCell {
         
         self.docProfileImage.layer.cornerRadius = self.docProfileImage.frame.size.width / 2
         self.docProfileImage.clipsToBounds = true
-        self.docProfileImage.layer.borderWidth = 1.0
+        self.docProfileImage.layer.borderWidth = 2.0
         self.docProfileImage.layer.borderColor = UIColor.whiteColor().CGColor
     }
 
